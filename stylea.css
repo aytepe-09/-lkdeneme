@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box; /*content box: spesifik bir size belirler ve verdiğin width ve height i bu rakamın üstüne ekler. */
+  /*resetlemiş olduk, body den itibaren herşeyi * işareti ile sıfırlamış oluruz. */  
+    font-family: sans-serif;
+}
+body{
+    background-color: aqua;
+}
+
+/*her css in default margin, padding gibi özellikleri vardır. bunu resetlemek için reset yazıyoruz. */
+.maincontainer{
+    background-color: bisque;
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    
+}
+
+.div{
+    background-color: darkmagenta;
+}
+
